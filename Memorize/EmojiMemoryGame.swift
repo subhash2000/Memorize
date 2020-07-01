@@ -9,12 +9,12 @@
 import Foundation
 
 //func createCardContent(
-class EmojiMemoryGame{
-    var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
+class EmojiMemoryGame: ObservableObject{
+  @Published private  var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
     static func createMemoryGame() -> MemoryGame<String>
     {
-        let emojis : Array<String> = ["👻","🎃","🕷"]
+        let emojis : Array<String> = ["👻","🎃","🕷","😊","😍","👻","🎃","🕷","😊","🎃","🕷","😊"]
         return MemoryGame<String>(numOfPairs: emojis.count){ pairIndex in
             return emojis[pairIndex]
         }
@@ -22,7 +22,7 @@ class EmojiMemoryGame{
         
     }
     
-    // MARK: - Model
+    // MARK: - Model  
     var cards: Array<MemoryGame<String>.Card>{
       return  model.cards
     }
@@ -32,5 +32,9 @@ class EmojiMemoryGame{
     
     func choose(card: MemoryGame<String>.Card){
         model.choose(card: card)
+    }
+    
+    func createNewGame(){
+        model = EmojiMemoryGame.createMemoryGame()
     }
 }

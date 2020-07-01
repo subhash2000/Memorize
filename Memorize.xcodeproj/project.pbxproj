@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82392EF24A4D2D100DF9FB0 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82392EE24A4D2D100DF9FB0 /* GridLayout.swift */; };
+		D82392F124A4D9FF00DF9FB0 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82392F024A4D9FF00DF9FB0 /* Array+Identifiable.swift */; };
+		D82A9C3124A9C76700E53429 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A9C3024A9C76700E53429 /* Array+Only.swift */; };
 		D8C78FA1248EB90800769A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C78FA0248EB90800769A93 /* AppDelegate.swift */; };
 		D8C78FA3248EB90800769A93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C78FA2248EB90800769A93 /* SceneDelegate.swift */; };
-		D8C78FA5248EB90800769A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C78FA4248EB90800769A93 /* ContentView.swift */; };
+		D8C78FA5248EB90800769A93 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C78FA4248EB90800769A93 /* EmojiMemoryGameView.swift */; };
 		D8C78FA7248EB90C00769A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C78FA6248EB90C00769A93 /* Assets.xcassets */; };
 		D8C78FAA248EB90C00769A93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C78FA9248EB90C00769A93 /* Preview Assets.xcassets */; };
 		D8C78FAD248EB90C00769A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C78FAB248EB90C00769A93 /* LaunchScreen.storyboard */; };
+		D8EE80E32496A88C002F597E /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE80E22496A88C002F597E /* Grid.swift */; };
 		D8EFCEC0248FCA0C006F4B25 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EFCEBF248FCA0C006F4B25 /* MemoryGame.swift */; };
 		D8EFCEC2248FCCEE006F4B25 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EFCEC1248FCCEE006F4B25 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D82392EE24A4D2D100DF9FB0 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		D82392F024A4D9FF00DF9FB0 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		D82A9C3024A9C76700E53429 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		D8C78F9D248EB90800769A93 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C78FA0248EB90800769A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8C78FA2248EB90800769A93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8C78FA4248EB90800769A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8C78FA4248EB90800769A93 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		D8C78FA6248EB90C00769A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8C78FA9248EB90C00769A93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8C78FAC248EB90C00769A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8C78FAE248EB90C00769A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8EE80E22496A88C002F597E /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		D8EFCEBF248FCA0C006F4B25 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		D8EFCEC1248FCCEE006F4B25 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,9 +70,13 @@
 			children = (
 				D8C78FA0248EB90800769A93 /* AppDelegate.swift */,
 				D8C78FA2248EB90800769A93 /* SceneDelegate.swift */,
-				D8C78FA4248EB90800769A93 /* ContentView.swift */,
-				D8EFCEBF248FCA0C006F4B25 /* MemoryGame.swift */,
+				D8C78FA4248EB90800769A93 /* EmojiMemoryGameView.swift */,
+				D8EE80E22496A88C002F597E /* Grid.swift */,
+				D82392F024A4D9FF00DF9FB0 /* Array+Identifiable.swift */,
+				D82A9C3024A9C76700E53429 /* Array+Only.swift */,
+				D82392EE24A4D2D100DF9FB0 /* GridLayout.swift */,
 				D8EFCEC1248FCCEE006F4B25 /* EmojiMemoryGame.swift */,
+				D8EFCEBF248FCA0C006F4B25 /* MemoryGame.swift */,
 				D8C78FA6248EB90C00769A93 /* Assets.xcassets */,
 				D8C78FAB248EB90C00769A93 /* LaunchScreen.storyboard */,
 				D8C78FAE248EB90C00769A93 /* Info.plist */,
@@ -155,8 +167,12 @@
 				D8C78FA1248EB90800769A93 /* AppDelegate.swift in Sources */,
 				D8EFCEC0248FCA0C006F4B25 /* MemoryGame.swift in Sources */,
 				D8C78FA3248EB90800769A93 /* SceneDelegate.swift in Sources */,
-				D8C78FA5248EB90800769A93 /* ContentView.swift in Sources */,
+				D82A9C3124A9C76700E53429 /* Array+Only.swift in Sources */,
+				D8C78FA5248EB90800769A93 /* EmojiMemoryGameView.swift in Sources */,
 				D8EFCEC2248FCCEE006F4B25 /* EmojiMemoryGame.swift in Sources */,
+				D82392F124A4D9FF00DF9FB0 /* Array+Identifiable.swift in Sources */,
+				D82392EF24A4D2D100DF9FB0 /* GridLayout.swift in Sources */,
+				D8EE80E32496A88C002F597E /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
